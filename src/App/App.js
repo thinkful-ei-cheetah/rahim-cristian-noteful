@@ -3,7 +3,7 @@ import { Route } from 'react-router-dom';
 import './App.css';
 import STORE from '../STORE';
 import SideBar from '../SideBar/SideBar';
-import Content from '../Content/Content';
+import Main from '../Main/Main';
 
 
 export default function App() {
@@ -18,7 +18,7 @@ export default function App() {
         </h1>
       </header>
       <SideBar />
-      <Content />
+      <Main />
     </React.Fragment>
   );
 }
